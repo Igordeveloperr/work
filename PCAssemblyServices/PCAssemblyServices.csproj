@@ -267,6 +267,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataBase\" />
+    <Folder Include="Model\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\orders.png" />
