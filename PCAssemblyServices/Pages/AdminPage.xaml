@@ -1,0 +1,113 @@
+﻿<Page x:Class="PCAssemblyServices.Pages.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PCAssemblyServices.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="AdminPage">
+
+    <Grid Background="#5500D5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="25"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1" Grid.Column="1" Background="White" CornerRadius="35">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Выберите соответствующую периферию" FontSize="35" HorizontalAlignment="Center" Grid.ColumnSpan="7" VerticalAlignment="Center"/>
+
+                <Button x:Name="procc" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\procc.png" Height="69" />
+                        <TextBlock Text="Процессоры" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="ram" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\ram.png" Height="70" />
+                        <TextBlock Text="ОЗУ" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="motherboard" Grid.Column="5" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\motherboard.png" Height="70"/>
+                        <TextBlock Text="Мат. платы" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="videoadapter" Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\videoadapter.png" Height="70"/>
+                        <TextBlock Text="Видеокарты" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="cooler" Grid.Column="3" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\cooler.png" Height="69" />
+                        <TextBlock Text="Охлаждение" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="hdd" Grid.Column="5" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\hdd.png" Height="69" />
+                        <TextBlock Text="Жесткие диски" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="sdd" Grid.Column="1" Grid.Row="7" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\ssd.png" Height="69" />
+                        <TextBlock Text="Тверд. накопит." HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="powersupply" Grid.Column="3" Grid.Row="7" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\powersupply.png" Height="69" />
+                        <TextBlock Text="Блоки питания" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="case" Grid.Column="5" Grid.Row="7" Grid.RowSpan="2" Grid.ColumnSpan="1" Height="Auto" Margin="0" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Source="C:\Users\alexa\OneDrive\Рабочий стол\TSchool\Программирование\Евсеев\2 семестр\PCAssemblyServices\PCAssemblyServices\Image\case.png" Height="69" />
+                        <TextBlock Text="Корпусы" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

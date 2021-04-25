@@ -1,0 +1,26 @@
+﻿<Window x:Class="PCAssemblyServices.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PCAssemblyServices"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="MainWindow" Height="700" Width="900">
+    <Grid Background="#5500D5">
+        <Border MinWidth="400" MaxWidth="550" Height="300" Margin="15" Background="Azure" VerticalAlignment="Center" Padding="30" CornerRadius="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color= "White" ShadowDepth="0"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Добро пожаловать!" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Black" Margin="0 0 0 20"/>
+                <Grid Height="175">
+                    <Button HorizontalAlignment="Left" Content="Регистрация" Click="Button_Reg_Click" VerticalAlignment="Bottom" Width="115"/>
+                    <Button HorizontalAlignment="Right" Content="Выйти" Click="Button_Exit_Click" VerticalAlignment="Bottom" Width="115"/>
+                    <Button HorizontalAlignment="Center" Content="Вход" Click="Button_Auth_Click" VerticalAlignment="Bottom" Width="115"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+        <Frame NavigationUIVisibility="Hidden" Name="nav"></Frame>
+    </Grid>
+</Window>
