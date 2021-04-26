@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pcservicedb.mdf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pcservicedb_log.ldf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/main.png")]
 
 
