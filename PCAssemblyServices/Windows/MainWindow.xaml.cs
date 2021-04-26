@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PCAssemblyServices.Model;
+using PCAssemblyServices.Model.account;
+using PCAssemblyServices.Model.dataBase;
 using PCAssemblyServices.Pages;
 
 namespace PCAssemblyServices
@@ -35,6 +38,11 @@ namespace PCAssemblyServices
 
         private void Button_Reg_Click(object sender, RoutedEventArgs e)
         {
+            AccountContext acc = new AccountContext();
+            User user = new User() { Name = "Sho" };
+            var succ = acc.Insert(user);
+
+
             nav.NavigationService.Navigate(new RegPage());
         }
 
