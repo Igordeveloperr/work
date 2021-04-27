@@ -39,9 +39,8 @@ namespace PCAssemblyServices
         private void Button_Reg_Click(object sender, RoutedEventArgs e)
         {
             AccountContext acc = new AccountContext();
-            User user = new User() { Name = "Valentin", AccountType = AccountTypes.Default, Password = "1234asd" };
-            var succ = acc.Insert(user);
-
+            var user = acc.ReceiveById(2);
+            MessageBox.Show(user.Name);
 
             nav.NavigationService.Navigate(new RegPage());
         }
