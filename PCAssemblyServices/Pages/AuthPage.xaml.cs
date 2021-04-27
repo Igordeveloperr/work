@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PCAssemblyServices.Model.dataBase;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,10 +26,25 @@ namespace PCAssemblyServices.Pages
             InitializeComponent();
         }
 
-        private void Button_Auth_Click(object sender, RoutedEventArgs e)
+        private async void Button_Auth_Click(object sender, RoutedEventArgs e)
         {
-            string login = TextBoxLogin.Text.Trim();
-            string password = TextBoxPassword.Password.Trim();
+            string login = TextBoxLogin.Text;
+            string password = TextBoxPassword.Password;
+            try
+            {
+                AccountContext acc = new AccountContext();
+                var authUser = await acc.AuthorizationAsync(login, password);
+                MessageBox.Show($"Пользователь {authUser.Name} успешно авторизован");
+                MainWindow.mn.nav.NavigationService.Navigate(new AccountPage());
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch(NullReferenceException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
             if (login == "")
             {
@@ -43,7 +59,6 @@ namespace PCAssemblyServices.Pages
 
             if (login == "admin" && password == "admin")
             {
-                MainWindow.mn.nav.NavigationService.Navigate(new AccountPage());
             }
             
         }
