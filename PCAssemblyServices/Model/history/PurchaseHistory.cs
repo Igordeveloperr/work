@@ -1,4 +1,5 @@
-﻿using PCAssemblyServices.Model.basket;
+﻿using PCAssemblyServices.Model.account;
+using PCAssemblyServices.Model.basket;
 using System.Collections.Generic;
 
 namespace PCAssemblyServices.Model.history
@@ -9,7 +10,9 @@ namespace PCAssemblyServices.Model.history
         {
 
         }
-        public List<ShopBasket> History { get; private set; }
+        public int Id { get; set; }
+        public ICollection<ShopBasket> Histories { get; set; }
+        public virtual User User { get; set; }
         public void ShowHistory()
         {
 
