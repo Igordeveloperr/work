@@ -39,7 +39,7 @@ namespace PCAssemblyServices
         private void Button_Reg_Click(object sender, RoutedEventArgs e)
         {
             AccountContext acc = new AccountContext();
-            User user = new User() { Name = "Sho" };
+            User user = new User() { Name = "Valentin", AccountType = AccountTypes.Default, Password = "1234asd" };
             var succ = acc.Insert(user);
 
 

@@ -7,7 +7,7 @@ namespace PCAssemblyServices.Model.dataBase
     public class AccountContext : DataBaseContext
     {
         public DbSet<User> Users { get; set; }
-        public bool Insert(User acc)
+        public bool Insert(User acc) //TODO: оформить тупа обработку исключений
         {
             if (acc == null)
                 throw new ArgumentNullException(nameof(acc));
@@ -20,6 +20,10 @@ namespace PCAssemblyServices.Model.dataBase
             }
             return false;
         }
+        //public bool Receive()
+        //{
+
+        //}
 
     }
 }

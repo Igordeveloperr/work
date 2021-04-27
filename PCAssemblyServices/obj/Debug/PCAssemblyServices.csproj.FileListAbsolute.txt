@@ -136,8 +136,6 @@ E:\Igor\11_C#_заказ\курсач\work\PCAssemblyServices\obj\Debug\PCAssemb
 E:\Igor\11_C#_заказ\курсач\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.csproj.CopyComplete
 E:\Igor\11_C#_заказ\курсач\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.exe
 E:\Igor\11_C#_заказ\курсач\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.pdb
-C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\PCServiceDB.mdf
-C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\PCServiceDB_log.ldf
 C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\PCAssemblyServices.exe.config
 C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\PCAssemblyServices.exe
 C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\PCAssemblyServices.pdb
@@ -210,3 +208,7 @@ C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\PCAssemb
 C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.csproj.CopyComplete
 C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.exe
 C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.pdb
+C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\Database1.mdf
+C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\bin\Debug\Database1_log.ldf
+C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.csprojAssemblyReference.cache
+C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\PCAssemblyServices.Migrations.InitialCreate.resources
