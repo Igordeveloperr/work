@@ -72,7 +72,7 @@ namespace PCAssemblyServices.Model.dataBase
                 using (AccountContext db = new AccountContext())
                 {
                     authUser = db.Users.Where(user => user.Name == login &&
-                                                                                    user.Password == password).FirstOrDefault();
+                                                                           user.Password == password).FirstOrDefault();
                     if (authUser != null)
                         return authUser;
                     throw new NullReferenceException("Пользователь не найдет");

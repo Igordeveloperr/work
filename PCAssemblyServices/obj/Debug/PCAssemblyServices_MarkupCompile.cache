@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\obj\Debug\
+C:\Users\Admin\Desktop\C# projects\work-dev\work\PCAssemblyServices\obj\Debug\
 PCAssemblyServices
 none
 false
 DEBUG;TRACE
-C:\Users\DOM\Desktop\ИЛЬЯ\HTML\C#\work\PCAssemblyServices\App.xaml
+C:\Users\Admin\Desktop\C# projects\work-dev\work\PCAssemblyServices\App.xaml
 241096690582
 31365818790
 50-1611186357
-18436692302
+18539198788
 Pages\AccessoriesForAdmin\CaseForAdmin.xaml;Pages\AccessoriesForAdmin\CoolerForAdmin.xaml;Pages\AccessoriesForAdmin\HddForAdmin.xaml;Pages\AccessoriesForAdmin\MotherboardForAdmin.xaml;Pages\AccessoriesForAdmin\PowerSupplyForAdmin.xaml;Pages\AccessoriesForAdmin\ProccForAdmin.xaml;Pages\AccessoriesForAdmin\RamForAdmin.xaml;Pages\AccessoriesForAdmin\SsdForAdmin.xaml;Pages\AccessoriesForAdmin\VideoadapterForAdmin.xaml;Pages\AccessoriesForUser\CaseForUser.xaml;Pages\AccessoriesForUser\CoolerForUser.xaml;Pages\AccessoriesForUser\HddForUser.xaml;Pages\AccessoriesForUser\MotherboardForUser.xaml;Pages\AccessoriesForUser\PowerSupplyForUser.xaml;Pages\AccessoriesForUser\ProccForUser.xaml;Pages\AccessoriesForUser\RamForUser.xaml;Pages\AccessoriesForUser\SsdForUser.xaml;Pages\AccessoriesForUser\VideoadapterForUser.xaml;Pages\AccountPage.xaml;Pages\AdminPage.xaml;Pages\AuthPage.xaml;Pages\RegPage.xaml;Pages\UserPage.xaml;Windows\MainWindow.xaml;
 
 False

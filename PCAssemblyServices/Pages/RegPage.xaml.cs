@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PCAssemblyServices.Model.account;
+using PCAssemblyServices.Model.dataBase;
 using PCAssemblyServices.Pages;
 
 namespace PCAssemblyServices.Pages
@@ -77,6 +79,20 @@ namespace PCAssemblyServices.Pages
             {
                 TextBoxRepeatPassword.ToolTip = "Пароли совпадают";
                 TextBoxRepeatPassword.Background = Brushes.Transparent;
+            }
+            AccountContext account = new AccountContext();
+            User test = account.Users.Where(usertest=> usertest.Name == login && usertest.Password == password).FirstOrDefault();
+            if (test != null)
+            {
+                MessageBox.Show("Вы уже зарегистрированны!");
+            }
+            else
+            {
+                User user = new User();
+                user.Name = login;
+                user.Password = password;
+                user.SingUp();
+                MainWindow.mn.nav.NavigationService.Navigate(new AccountPage());
             }
         }
 

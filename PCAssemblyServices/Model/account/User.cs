@@ -1,4 +1,6 @@
-﻿namespace PCAssemblyServices.Model.account
+﻿using PCAssemblyServices.Model.dataBase;
+
+namespace PCAssemblyServices.Model.account
 {
     public class User : Account
     {
@@ -9,7 +11,8 @@
         }
         public bool SingUp()
         {
-            //TODO: realize sing up (user)
+            AccountContext account = new AccountContext();
+            account.Add(this);
             return false;
         }
     }
